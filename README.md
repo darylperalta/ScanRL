@@ -1,6 +1,8 @@
 # Implementation of Scan-RL
 
-RL code based on https://github.com/germain-hug/Deep-RL-Keras
+RL code based on https://github.com/germain-hug/Deep-RL-Keras.
+Gym environments are defined in this fork of UnrealCV: https://github.com/darylperalta/gym-unrealcv.
+
 - To run code you need to install this fork of gym-unrealcv: https://github.com/darylperalta/gym-unrealcv
 - Unreal Environments can be found here: https://drive.google.com/drive/folders/12Mo7vrlws0mcU99q-U7CzECoLLO50iUh?usp=sharing
 - Houses3K Groundtruth data:
