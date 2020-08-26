@@ -1,3 +1,5 @@
 log/*.npy
 log/*.png
+log/*.txt
+!log/frame-001000.pose.txt
 *__pycache__
