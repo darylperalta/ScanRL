@@ -1,10 +1,21 @@
 Single House Model: (Make sure gym_unrealcv/envs/setting/depth_fusionB_keras.json is set properly)
+
 Training:
 python main_unreal.py --nb_episodes 500 --batch_size 32 --epsilon_decay 0.999 --epsilon 1.0 --save_interval 20 --consecutive_frames 3 --type DDQN --env DepthFusionBGray-v0
+
 Testing:
 python load_and_run_unreal.py --type DDQN --consecutive_frames 6 --model_path '/hdd/AIRSCAN/sfm_results/RL_VP/new_baselines/bat6/2dist_45az_3elev/models/DDQN_ENV_DepthFusionBGray-v0_NB_EP_1000_BS_32_LR_0.00025_ep_10000.h5' --epsilon 0.0
-Circular: python circular_agent_close_depth.py 
 
+Continuous
+Training:
+python main_unreal.py --nb_episodes 500 --batch_size 32 --epsilon_decay 0.999 --epsilon 1.0 --save_interval 20 --consecutive_frames 6 --type DDPG --env DepthFusionBGrayContinuous-v0
+
+Environment IDs:
+DepthFusionBGray-v0
+DepthFusionBGrayContinuous-v0
+
+
+Circular: python circular_agent_close_depth.py
 
 Multiple House Model
 Training:
@@ -12,6 +23,9 @@ python main_unreal.py --nb_episodes 2500 --batch_size 10 --epsilon_decay 0.999 -
 Testing:
 python main_unreal.py --nb_episodes 2500 --batch_size 10 --epsilon_decay 0.999 --epsilon 1.0 --save_interval 20 --consecutive_frames 6 --type DDQN --env DepthFusionBGrayMultHouseRand-v0
 
+
 Bunny:
+
+
 Testing:
 python load_and_run_unreal.py --model_path '/home/daryl/gym-unrealcv/new_bunny_3pen_89cov/models/DDQN_ENV_Bunny-v0_NB_EP_1000_BS_32_LR_0.00025_ep_10000.h5' --consecutive_frames 6 --type DDQN --env Bunny-v0 --epsilon 0.0
