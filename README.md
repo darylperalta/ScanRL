@@ -1,18 +1,21 @@
 # Scan-RL: Next-Best View Policy for 3D Reconstruction
 This is the release code of Scan-RL presented in the paper Next-Best View Policy for 3D Reconstruction. The Houses3K dataset used in this paper can be found in this [link](https://github.com/darylperalta/Houses3K).
 
+<img src='imgs/VP_Overview.png' width="500"/>
+
+
 ## Scan-RL
 ### Diagram
 <img src='imgs/Diagram.png' width="500"/>
 
 ## Setting up the Environment
 - Necessary Python packages can be found in [python_requirements.txt](python_requirements.txt).
-- To install the environments, you need to install this fork of [gym-unrealcv](https://github.com/darylperalta/gym-unrealcv). Additional instructions are included there.
+- To install the environments, you need to install our fork of [gym-unrealcv](https://github.com/darylperalta/gym-unrealcv). Additional instructions are included there.
 
 
 ### Single House Policy Experiment
 
-- [Weights](https://drive.google.com/drive/folders/1Rd7VJHZIQB3rn-XL35MR7E7UrK_3vlg_?usp=sharing)
+- [Weights](https://drive.google.com/drive/folders/1Kw06HFt7yXoWE8vYw48GITTr7CcADA96?usp=sharing)
 - Circular baseline script can be found [here](https://github.com/darylperalta/gym-unrealcv/blob/v0.2/example/circular_agent/circular_agent_close_depth.py).
 - Sample Usage
 
@@ -34,7 +37,7 @@ python load_and_run_unreal.py --type DDQN --consecutive_frames 6 --model_path '/
 ```
 
 ### Multiple Houses Policy Experiment (Geometry Split)
-- [Weights](https://drive.google.com/drive/folders/1N5ixPHbSHh_SUTj3GMEFMRUHL4JQFKLu?usp=sharing)
+- [Weights](https://drive.google.com/drive/folders/1K25riPR77HgloM9xTUDtYBHTJKzxoDjC?usp=sharing)
 - Circular baseline script can be found [here](https://github.com/darylperalta/gym-unrealcv/blob/v0.2/example/circular_agent/circular_agent_baseline.py).
 - Sample Usage
 
@@ -52,7 +55,7 @@ python main_unreal.py --nb_episodes 2500 --batch_size 10 --epsilon_decay 0.999 -
 ```
 
 ### Non-House Target Model (Stanford Bunny) Experiment
-- [Weights](https://drive.google.com/drive/folders/1WnsleXGK0S0KcC0XMzYb6Ddw4LCBHPTb?usp=sharing)
+- [Weights](https://drive.google.com/drive/folders/1L0zjXO_w-bRLNeLa6nXTZhNkItc3V2un?usp=sharing)
 - Sample Usage
 
 ```
