@@ -1,5 +1,5 @@
 # Scan-RL: Next-Best View Policy for 3D Reconstruction
-This is the release code of Scan-RL presented in the paper Next-Best View Policy for 3D Reconstruction. The Houses3K dataset used in this paper can be found in this [link](https://github.com/darylperalta/Houses3K).
+This is the release code of **Scan-RL** presented in the paper *Next-Best View Policy for 3D Reconstruction*. The **Houses3K** dataset used in this paper can be found in this [link](https://github.com/darylperalta/Houses3K).
 
 <img src='imgs/VP_Overview.png' width="500"/>
 
