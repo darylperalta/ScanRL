@@ -1,5 +1,12 @@
 # Scan-RL: Next-Best View Policy for 3D Reconstruction
-This is the release code of **Scan-RL** presented in the paper *Next-Best View Policy for 3D Reconstruction*. The **Houses3K** dataset used in this paper can be found in this [link](https://github.com/darylperalta/Houses3K).
+
+`Next-Best View Policy for 3D Reconstruction` to be presented at [2020 ECCV Wokshop](http://uavisionvisdrone.com/#/index/home).
+
+*
+Peralta, D., Casimiro, J., Nilles, A.M., Aguilar, J.A., Atienza, R., and Cajote, R. "Next-Best View Policy for 3D Reconstruction." European Conference on Computer Vision (ECCV) Workshops, 2020.
+*
+
+**Scan-RL**  code implemenation presented in the paper *Next-Best View Policy for 3D Reconstruction*. The **Houses3K** dataset used in this paper can be found in this [link](https://github.com/darylperalta/Houses3K).
 
 <img src='imgs/VP_Overview.png' width="500"/>
 
