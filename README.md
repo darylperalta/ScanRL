@@ -1,6 +1,6 @@
 # Scan-RL: Next-Best View Policy for 3D Reconstruction
 
-`Next-Best View Policy for 3D Reconstruction` to be presented at [2020 ECCV Wokshop](http://uavisionvisdrone.com/#/index/home).
+[Next-Best View Policy for 3D Reconstruction](http://arxiv.org/abs/2008.12664) to be presented at [2020 ECCV Wokshop](http://uavisionvisdrone.com/#/index/home).
 
 *Peralta, D., Casimiro, J., Nilles, A.M., Aguilar, J.A., Atienza, R., and Cajote, R. "Next-Best View Policy for 3D Reconstruction." European Conference on Computer Vision (ECCV) Workshops, 2020.*
 
