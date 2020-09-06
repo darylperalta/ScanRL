@@ -69,8 +69,15 @@ python load_and_run_unreal.py --model_path '/home/daryl/gym-unrealcv/new_bunny_3
 ```
 
 ## Citation
-
-
+Please cite our paper if you find our work useful.
+```
+@article{peralta2020next,
+  title={Next-Best View Policy for 3D Reconstruction},
+  author={Peralta, Daryl and Casimiro, Joel and Nilles, Aldrin Michael and Aguilar, Justine Aletta and Atienza, Rowel and Cajote, Rhandley},
+  journal={arXiv preprint arXiv:2008.12664},
+  year={2020}
+}
+```
 
 
 ### References
